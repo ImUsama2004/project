@@ -1,0 +1,118 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0%;
+}
+header{
+    padding: 40px;
+    background-color: aqua;
+    text-align: center;
+    color: white;
+}
+header h1 {
+    font-size: 40px;
+}
+nav{
+    display: flex;
+    background-color: yellowgreen;
+    overflow: hidden;
+
+}
+nav a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding: 14px 20px;
+    float: left;
+}
+section{
+    text-align: center;
+    padding: 75px 0px;
+    color: aqua;
+    min-height: 40vh;
+}
+section h2{
+    padding-bottom: 5px;
+}
+section:nth-child(even){
+    background-color: brown;
+    
+    
+}
+
+img{
+    padding: 5px;
+
+}
+footer{
+    overflow: hidden;
+    background-color: skyblue;
+    color: black;
+    padding-bottom: 5px;
+}
+footer a{
+    display: block;
+    text-decoration: none;
+    padding: 5px 10px;
+    float: left;
+}
+footer a:hover{
+    color: yellow;
+}
+.links{
+    
+    background-color: aqua;
+    text-align: center;
+    text-decoration: double;
+    
+}
+#youtube:hover{
+    color: black;
+}
+#google:hover{
+    color:black
+}
+h3{
+    color: aqua;
+    font-size: larger;
+    font-style: italic;
+    background-color: white;
+
+}
+.banner{
+    background-image: url(usama1607518975.png);
+    height: 20vw;
+    min-height: 100px;
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: 50%;
+    background-attachment: fixed;
+
+}
+
+
+.menu-btn:hover{
+    background-color: white;
+    color: black;
+}
+
+.right-align-item{
+    position: absolute;
+    right: 10px;
+}
+section h2 span {
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(37,140,134,1) 35%, rgba(0,212,255,1) 100%);
+    padding: 10px 55px;
+    border-radius: 20px;
+} 
+  .carousel-cell {
+    width: 66%;
+    margin-right: 10px;
+    border-radius: 5px;
+  }
+  .carousel-cell video{
+    max-width: 50%;
+  }
+  
+  
